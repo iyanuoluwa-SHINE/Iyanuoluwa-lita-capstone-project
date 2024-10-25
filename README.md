@@ -31,7 +31,7 @@ In Excel, we performed essential data cleaning steps:
 
 **Revenue Calculation :**   Validation using formulas to cross-check **Quantity * Unit Price** against recorded revenue.
 
-### **Data Storage and Querying (Using SQL)**[Download Her](https://www.microsoft.com/en-us/evalcenter/download-sql-server-2022)
+### **Data Storage and Querying (Using SQL)**[Download Here](https://www.microsoft.com/en-us/evalcenter/download-sql-server-2022)
 
 The cleaned data was then imported into SQL tables to facilitate complex querying, aggregation, and analysis, improving data handling efficiency. Key queries included:
 
@@ -90,6 +90,152 @@ II.AVERAGE UNIT PRICE = AVERAGE(SalesData[UnitPrice])
 
 III.Total Revenue = SUM('CustomerData (2)'[Revenue])
 ```
+
+### **DATA VISUALIZATION**
+
+**EXCEL** SALES DATA 
+
+Region	Sum of revenue
+East	485925
+North	387000
+South	927820
+West	300345
+Grand Total	2101090
+	
+	
+![image](https://github.com/user-attachments/assets/38ad2323-78e7-4254-9c00-eeb309a3c164)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+![image](https://github.com/user-attachments/assets/f64a1015-79bf-4dab-9dd1-9c71b801671c)
+
+
+
+	Product	Sum of revenue
+	Shirt	485600
+	Shoes	613380
+	Hat	316195
+	Socks	180785
+	Jacket	208230
+	Gloves	296900
+	Grand Total	2101090
+		
+![image](https://github.com/user-attachments/assets/587729b9-d4e3-4d83-8ce4-5edb080cca19)
+
+								
+![image](https://github.com/user-attachments/assets/d0d2038a-1e8f-4715-953c-38114770b1a2)
+
+
+
+CONSUUMER DATA
+	
+SubscriptionType	Sum of Revenue
+Basic	33776735
+Premium	16899064
+Standard	16864376
+Grand Total	67540175
+![image](https://github.com/user-attachments/assets/f92c0d33-ac93-45c8-ae4d-be1850644ab6)
+
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+![image](https://github.com/user-attachments/assets/0301521d-d4d3-42e9-b185-5fe3f5e33b72)
+
+	
+Region	Sum of revenue
+East	485925
+North	387000
+South	927820
+West	300345
+Grand Total	2101090
+	
+![image](https://github.com/user-attachments/assets/feb35a30-59d4-46d4-abbc-38daca8f2f65)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+![image](https://github.com/user-attachments/assets/9f1a75d7-858d-4c58-ae57-59325995fd9f)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
