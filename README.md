@@ -19,46 +19,94 @@ The primary data sources for this project are the *Sales* and *Customer* dataset
 
 **Power BI**: Visualization and dashboard creation
 
-### Data Preparation (Excel)
+### Data Preparation (Excel) [Download Here](https://microsoft-excel.en.softonic.com/)
+
 In Excel, we performed essential data cleaning steps:
 
 **Removing Duplicates :** Removing Duplicates  to prevent double-counting revenue.
 
 **Handling Missing :** Hnandling Missing  Values in crucial fields such as Order ID and Revenue.
 
-
 **Date Formatting :** Formatting Date  to standardize date fields.
+
 **Revenue Calculation :**   Validation using formulas to cross-check **Quantity * Unit Price** against recorded revenue.
 
-### **Data Storage and Querying (Using SQL)**
+### **Data Storage and Querying (Using SQL)**[Download Her](https://www.microsoft.com/en-us/evalcenter/download-sql-server-2022)
 
 The cleaned data was then imported into SQL tables to facilitate complex querying, aggregation, and analysis, improving data handling efficiency. Key queries included:
 
 1. **Regional Sales Aggregation**: By grouping the sales data by region, we were able to identify high-revenue areas and explore product preferences in each.
-2. 
-3. **Customer Revenue by Subscription Type**: Using SQL, customers were segmented by subscription type, highlighting which customer groups contributed the most revenue.
-4. 
-5. **Sales Trends Analysis**: SQL queries were utilized to track monthly and quarterly revenue trends, identifying periods of high and low sales to understand seasonal impacts.
 
-### **Data Analysis and Visualization (Using Power BI)**
+2. **Customer Revenue by Subscription Type**: Using SQL, customers were segmented by subscription type, highlighting which customer groups contributed the most revenue.
+ 
+3. **Sales Trends Analysis**: SQL queries were utilized to track monthly and quarterly revenue trends, identifying periods of high and low sales to understand seasonal impacts.
 
-Data Visualization (Power BI)
+### Data Analysis and Visualization (Using Power BI)[Download Here](https://www.microsoft.com/en-us/power-platform/products/power-bi)
+
+
 **Sales by Region –** Bar charts display revenue across regions, spotlighting top-performing areas.
 
 **Subscription Breakdown –** Pie and bar charts visualize revenue by subscription type, helping identify high-value segments.
 
 **Sales Trend Analysis –** Line graphs illustrate monthly revenue trends, highlighting peak and off-peak periods.
 
-Limitations
-Data Completeness: Some records had missing data, which may impact accuracy.
-Historical Data: Limited historical data may restrict trend analysis depth.
+### Exploratory data analysis
 
-Recommendations
-Automated Data Integration: Implement SQL-to-Power BI automation for real-time updates.
-Enhanced Customer Segmentation: Further break down subscription types for deeper insights.
-Predictive Analytics: Apply predictive modeling for future revenue trends.
+ EDA involved the exploring of the data to answer some questions  about the data such as;
 
-Conclusion
+**-What Is The Total Revenue** 
+
+**-Average Revenue**
+
+**-Average Subsription**
+
+### Data analysis
+This is where we incclude some basic lines of code or queries;
+
+EXCEL
+```EXCEL
+I. TOTAL REVENUE{NORTH}=SUMIF(D:D,"north",H:H)
+
+II. HIGHEST PRODUCT SOLD{SHOES]=MAX(C:C,H:H)
+
+III.LEAST PRODUCT SOLD {SOCKS}=MIN(C:C,H:H)
+```
+SQL
+```SQL
+
+
+
+
+
+
+
+```
+
+POWER BI
+```POWER BI
+I.Average Order-id = AVERAGE(SalesData[Customer Id])
+
+II.AVERAGE UNIT PRICE = AVERAGE(SalesData[UnitPrice])
+
+III.Total Revenue = SUM('CustomerData (2)'[Revenue])
+```
+
+
+
+
+### **Limitations**
+**Data Completeness:** Some records had missing data, which may impact accuracy.
+
+**Historical Data:** Limited historical data may restrict trend analysis depth.
+
+### Recommendations 
+**Automated Data Integration:** Implement SQL-to-Power BI automation for real-time updates.
+
+**Enhanced Customer Segmentation:** Further break down subscription types for deeper insights.
+
+**Predictive Analytics:** Apply predictive modeling for future revenue trends.
+
+### Conclusion 
 The Lita Capstone Project successfully provided valuable insights into revenue drivers, customer preferences, and regional performance. By combining Excel, SQL, and Power BI, the project offers a strong foundation for data-driven decision-making and strategic growth.
 
 
