@@ -200,6 +200,17 @@ Grand Total	2101090
 ![image](https://github.com/user-attachments/assets/9f1a75d7-858d-4c58-ae57-59325995fd9f)
 
 
+**POWER BI**
+SALES DATA
+![Screenshot (89)](https://github.com/user-attachments/assets/7b8c9a20-6207-4be1-9350-ed5d88958a9a)
+
+CONSUMER DATA
+
+![Screenshot (88)](https://github.com/user-attachments/assets/acaca69c-8fe2-497b-a8cb-ae001a03a52d)
+
+
+
+
 
 
 
