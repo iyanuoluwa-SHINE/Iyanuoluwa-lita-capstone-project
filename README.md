@@ -72,14 +72,27 @@ II. HIGHEST PRODUCT SOLD{SHOES]=MAX(C:C,H:H)
 III.LEAST PRODUCT SOLD {SOCKS}=MIN(C:C,H:H)
 ```
 SQL
-```SQL
+```SQ
+I.the Number of Sales Transactions in Each Region
+
+SELECT Region, COUNT(*) AS Number_of_Transactions
+FROM sales_data
+GROUP BY Region;
+
+II.
+
+SELECT Product, SUM(sale_of_product) AS Total_Revenue
+FROM sales_data
+GROUP BY Product;
 
 
+III.
+--------Top 5 Customers by Total Purchase Amount----
 
-
-
-
-
+SELECT Customer_id, SUM(sale_of_product) AS Total_Purchase_Amount
+FROM sales_data
+GROUP BY Customer_id
+ORDER BY Total_Purchase_Amount DESC
 ```
 
 POWER BI
@@ -198,6 +211,20 @@ Grand Total	2101090
 
 
 ![image](https://github.com/user-attachments/assets/9f1a75d7-858d-4c58-ae57-59325995fd9f)
+
+**sql**
+sales data 
+the Number of Sales Transactions in Each Region
+![Screenshot (95)](https://github.com/user-attachments/assets/0709c18e-e9df-4e6d-a2d7-8730f1ff3115)
+
+
+ Calculate Total Revenue per Product
+![Screenshot (93)](https://github.com/user-attachments/assets/40bbaef8-3b94-44eb-bf0e-a271f3b6665c)
+
+Top 5 Customers by Total Purchase Amount
+![Screenshot (91)](https://github.com/user-attachments/assets/2e5dab2c-4a6d-4736-b3c2-50f113db0abd)
+
+
 
 
 **POWER BI**
