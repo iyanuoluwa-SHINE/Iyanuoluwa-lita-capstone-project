@@ -299,10 +299,36 @@ Find the Top 3 Regions by Subscription Cancellations
 
 
 **POWER BI**
-SALES DATA
+
+**Dashboard Overview**
+
+Our project features a Power BI dashboard that provides in-depth insights into sales and consumer data. Below is an overview of each section, highlighting key metrics and visualizations that drive actionable insights.
+
+**SALES DATA**
+**Key Metrics**
+
+**Total Order Date Count:** 449M – Represents the total count of orders by date, showing demand volume over time.
+
+**Average Revenue:** 0.212K – Reflects the mean revenue per transaction, which helps assess overall profitability.
+
+**Average Unit Price:** 29 – Provides insight into pricing strategies and product valuation.
+
+**Total Revenue:** 2M – The cumulative revenue across products and regions.
+
+**Total Order ID Count:** 9921 – Indicates the total orders, which aids in understanding customer volume.
+
+
 ![Screenshot (89)](https://github.com/user-attachments/assets/7b8c9a20-6207-4be1-9350-ed5d88958a9a)
 
-CONSUMER DATA
+
+**CONSUMER DATA**
+**Key Metrics**
+
+**Total Revenue:** 68M – A comprehensive sum of revenue generated across all regions and subscription types.
+
+**Average Revenue:** 2.00K – Indicates the mean revenue generated per transaction.
+
+**Average Subscription (Beginning):** 44.9K and (End): 45.2K – Represents subscription star and end metrics over the observed period.
 
 ![Screenshot (108)](https://github.com/user-attachments/assets/d7e589ba-dd24-4e86-a6d7-6e6825041ebe)
 
@@ -346,20 +372,27 @@ CONSUMER DATA
 
 
 
+### Insights
+**Revenue Performance by Region:** Both dashboards show revenue contributions by region, with the South and East leading. This suggests that marketing efforts are effective in these areas, though there may be potential for growth in the North and West regions.
 
-### **Limitations**
-**Data Completeness:** Some records had missing data, which may impact accuracy.
+**Subscription Trends:** The second dashboard tracks revenue based on subscription types and dates. The high revenue from the "Basic" subscription type indicates a strong base of cost-conscious customers, while fluctuations in revenue over time may reveal seasonal or promotional effects.
 
-**Historical Data:** Limited historical data may restrict trend analysis depth.
+**Product Sales:** The first dashboard highlights products, with Shoes generating the highest revenue. The average unit price varies widely by product, showing potential price sensitivity differences among items.
 
-### Recommendations 
-**Automated Data Integration:** Implement SQL-to-Power BI automation for real-time updates.
+**Order Volume vs. Revenue:** The total order count is high, yet the average revenue is relatively low. This could imply a focus on lower-priced, high-turnover items or the effectiveness of budget-friendly subscription plans.
 
-**Enhanced Customer Segmentation:** Further break down subscription types for deeper insights.
+Recommendations
+**Regional Marketing Strategies:** Increase engagement in North and West regions to boost their contribution to revenue. Use targeted campaigns or local partnerships in these areas, informed by existing customer behavior in high-performing regions.
 
-**Predictive Analytics:** Apply predictive modeling for future revenue trends.
+**Upselling and Premium Offers:** Since "Basic" subscriptions generate the most revenue, consider upselling premium subscription features to these customers. Add value through exclusive benefits that justify the higher cost and retain users at a premium level.
+
+**Product-Specific Promotions:** Products with lower revenue, like Socks, could benefit from targeted promotions. Bundling these items with high-performing ones or offering discounts could increase their sales.
+
+**Subscription Retention Efforts:** With a notable portion of revenue from canceled subscriptions, develop retention strategies such as loyalty rewards, personalized communication, and subscription renewal discounts to reduce churn and maximize revenue sustainability.
+
+**Pricing Optimization:** Experiment with strategic pricing for products, especially high-priced items like Shoes. Testing small price adjustments or implementing discount offers during peak sales periods can help maximize revenue without sacrificing profitability.
 
 ### Conclusion 
-The Lita Capstone Project successfully provided valuable insights into revenue drivers, customer preferences, and regional performance. By combining Excel, SQL, and Power BI, the project offers a strong foundation for data-driven decision-making and strategic growth.
+The Lita Capstone Project successfully provided valuable insights into revenue drivers, customer preferences, and regional performance. By combining Excel, SQL, and Power BI, the project offers a strong foundation for data-driven decision-making and strategic growth.💪🌟 🤝💖
 
 
