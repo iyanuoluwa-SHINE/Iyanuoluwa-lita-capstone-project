@@ -304,9 +304,7 @@ SALES DATA
 
 CONSUMER DATA
 
-![Screenshot (88)](https://github.com/user-attachments/assets/acaca69c-8fe2-497b-a8cb-ae001a03a52d)
-
-
+![Screenshot (108)](https://github.com/user-attachments/assets/d7e589ba-dd24-4e86-a6d7-6e6825041ebe)
 
 
 
