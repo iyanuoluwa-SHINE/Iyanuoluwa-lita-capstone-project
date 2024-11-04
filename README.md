@@ -73,13 +73,16 @@ III.LEAST PRODUCT SOLD {SOCKS}=MIN(C:C,H:H)
 ```
 SQL
 ```SQ
+
+
+SALES DATA 
 I.the Number of Sales Transactions in Each Region
 
 SELECT Region, COUNT(*) AS Number_of_Transactions
 FROM sales_data
 GROUP BY Region;
 
-II.
+II. TOTAL SALE PRODUCT
 
 SELECT Product, SUM(sale_of_product) AS Total_Revenue
 FROM sales_data
@@ -93,6 +96,34 @@ SELECT Customer_id, SUM(sale_of_product) AS Total_Purchase_Amount
 FROM sales_data
 GROUP BY Customer_id
 ORDER BY Total_Purchase_Amount DESC
+
+CONSUMER DATA
+
+I.Total Number of Customers from Each Region
+
+SELECT Region, COUNT(CustomerID) AS TotalCustomers
+FROM [dbo].[Customer_Subscriptions]
+GROUP BY region;
+
+II. Most Popular Subscription Type by the Number of Customers
+
+SELECT SubscriptionType, COUNT(CustomerID) AS NumberOfCustomers
+FROM [dbo].[Customer_Subscriptions]
+GROUP BY SubscriptionType
+ORDER BY NumberOfCustomers DESC
+
+
+III. Find the Top 3 Regions by Subscription Cancellations
+
+SELECT Region, COUNT(CustomerID) AS Cancellations
+FROM [dbo].[Customer_Subscriptions]
+WHERE Canceled = 1
+GROUP BY Region
+ORDER BY Cancellations DESC
+
+
+
+
 ```
 
 POWER BI
@@ -236,6 +267,33 @@ the Number of Sales Transactions in Each Region
 Top 5 Customers by Total Purchase Amount
 
 ![Screenshot (91)](https://github.com/user-attachments/assets/2e5dab2c-4a6d-4736-b3c2-50f113db0abd)
+
+
+
+CONSMER DATA
+
+Total Number of Customers from Each Region
+
+![Screenshot (100)](https://github.com/user-attachments/assets/9d95b33e-f682-43d9-8bc6-955a20c11e2d)
+
+
+Most Popular Subscription Type by the Number of Customers
+
+![Screenshot (101)](https://github.com/user-attachments/assets/a0580979-a5a4-4057-b1e0-ed1a6374f307)
+
+
+Find the Top 3 Regions by Subscription Cancellations
+
+![Screenshot (104)](https://github.com/user-attachments/assets/e63728e4-8e2d-40e0-84ff-ebf4bc9038c4)
+
+
+
+
+
+
+
+
+
 
 
 
